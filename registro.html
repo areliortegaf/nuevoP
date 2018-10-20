@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>BuroDeRenta.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.js"></script>
+    <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#topnav">
+
+<div class="navbar navbar-inverse navbar-fixed-top" id="topnav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/logoburo4.png" alt="Expose" height="17px" /> </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#">Ingresar</a></li>
+                <li><a href="/registro.html">Registro</a></li>
+            </ul>
+
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</div>
+
+
+
+
+<section class="gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">Registrate y obten los siguiente beneficios</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slider" id="features">
+    <div class="container">
+        <div class="col-sm-12">
+
+     
+            <ul class="efx-list-content alternate clearfix">
+
+
+  
+                <li class="col-sm-12 col-md-3">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="text-align:center;"><img alt="" class="efx-list-content_img" width="100" height="100" src="images/settings.png"></p>
+                        </div>
+                        <div class="col-xs-12">
+                                <p style="font-size:18px; text-align:center;">Obtener reporte de crédito.</p>
+                        </div>
+                    </div>
+                </li>
+
+  
+                <li class="col-sm-12 col-md-3">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="text-align:center;"><img alt="" class="efx-list-content_img" width="100" height="100" src="images/management.png"></p>
+                        </div>
+                        <div class="col-xs-12">
+                                <p style="font-size:18px; text-align:center;">Reportar fraude.</p>
+                        </div>
+                    </div>
+                </li>
+
+  
+                <li class="col-sm-12 col-md-3">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="text-align:center;"><img alt="" class="efx-list-content_img" width="100" height="100" src="images/archive.png"></p>
+                        </div>
+                        <div class="col-xs-12">
+                                <p style="font-size:18px; text-align:center;">Solicitar correcciones en mi reporte.</p>
+                        </div>
+                    </div>
+                </li>
+
+  
+                <li class="col-sm-12 col-md-3">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="text-align:center;"><img alt="" class="efx-list-content_img" width="100" height="100" src="images/monitoring.png"></p>
+                        </div>
+                        <div class="col-xs-12">
+                                <p style="font-size:18px; text-align:center;">Establecer seguridad en mi reporte de crédito.</p>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="alert alert-success hidden" id="contactSuccess">
+                    <strong>¡Registro Exitoso!</strong>
+                </div>
+
+                <div class="alert alert-error hidden" id="contactError">
+                    <strong>¡Error!</strong>
+                </div>
+
+                <h2 class="short"><strong>Registro</strong></h2>
+                 <h4 class="short">Esta información es requerida para validar su identidad. </h4>
+
+<form class="clearfix" accept-charset="utf-8" method="get" action="#">
+
+<fieldset>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+$('.default').each(function() {
+    var default_value = this.value;
+    $(this).css('color', '#666');
+    $(this).focus(function() {
+        if(this.value == default_value) {
+            this.value = '';
+            $(this).css('color', '#333');
+        }
+    });
+    $(this).blur(function() {
+        if(this.value == '') {
+            this.value = default_value;
+            $(this).css('color', '#666');
+        }
+    });
+});
+loadTip();
+jQuery("select, input:not(#sn1, #sn2, #ssn3, #PHN, #phone2Id, #phone3)").click(function(){
+    closeIT();
+});
+$('.tip').focusout(function(){
+    closeIT();
+});
+});
+
+</script>
+<script type="text/javascript" src="https://mpsnare.iesnare.com/snare.js"></script>
+<input type="hidden" name="cwprod" id="H1CwProd" value="Y">
+<input type="hidden" name="restStatesProd" id="restStatesProd" value="null">
+<input type="hidden" name="prod_cd" id="prod_cd" value="UPLANF">
+<input type="hidden" name="fState" id="fState" value="Si">
+<input type="hidden" name="ioBlackBox" id="ioBlackBox" value="0400CIfeAe15Cx8Nf94lis1ztmB7mkLqqCwi1pmnc0LPyZE3/DEJOA2+7StACPRPlz8R3vCvq5g/Q2bxAF0iWoSvTcMHBAVZqwWAsR9WT0SMDOomopHRNjf4gUu4B4faHq8a6LEtcYEgIDXyxDKJBqBicdce1XPQj9MK1PFwaXdbA4FgO962GbSLFcqAPNKVwml2sK8H/PL2sgvQtVCYANQUGUOCbnRzpX9Skp62yUjciLFgfUflhWun3cYn8q04UaLxEp48DVRl0oBkPCJz7Ln+v5KTIBvOIMzuTzEBdNLiXsPV6scyeMvquPAIIG00yl8XwJtm79VTXmwffBShxl6FOZYwJVsFx3E/oYDerSQOKdZwPpPV0ZSMv4EF+0gmBFaw5+byDJDvKEQF2MgAOi+98TXvzuFENUbEqY8k4Caj47wnXxPyPXmArsQPcd6kSm4zvBvS1wqs+/Td6Wf1rrmlEA8mktm1N7MKYdYYvwKcDSzqU1gw6KohgQdhg13I6YIZvZJVRTsOxKGM1eyAwSCEbUL4qyhUXzaj8+g/mDVDCxG+GvAN7Zf0hdc3m1e73fqc730e43Gj+6xhO1Q2jmVgfNcbAlMg89W4vfkVOnmFps9j53DwfdmpQCaUGABVKw5X0ikb/3h1d0Im6Fy7sPS5ui2+QrzpKHuS8l7irVR2tjN9JLorDSn0EHTcpiE5xELlJS9wzsAJdIZc6njJgQh/4jOpvCmZZrwj+CElQdS1ccz4X35U0eVzPZXAAYR3cfgv3nZEBQ8rALMtAB9loDuNKLAcesNbcdJjGc+x7ZkkKyrh7d/W78RPOnlWmCRBdNDNnZsKRSTH+INxdZmBB1M74b/bXfdo6pnT9gpHloQhD09UgBbu4NCNc8nkpk5j7w7ZnmVsrBuRjVYuIsQnjM1OeTWAbv50krowBfyJjLLmO9LuhzmHVhuxKGaniHgh2wydu5iGRmShCoe8VDdLGBfK9PH/LgnAtMTg/gz07uVSINAgzJ8FJa/++5dWoUSzxwidBkW8rNc2hqeuC3emUNQIO4Az88EOUwmoOq9TQh3xjeZG/KtreSCjg2J45zzJe2PiUdBD6ojDavNIasbJi9kH5Y54PMvFqIy/RgEqSehE5i2JsumimGcck5FSZLiQIceTNgpzSXcapJWds97EDLH1crAtjgzHMGAk58fx3+Rcwz0I4HEJnGOmG0vEoXq/Y8/GXhBBz3OgEm8b/j6Q87qDY9m4JivOPiYRBNe8T77DDBXJgg8wQHFns5VPfVKB9sZJO7+yK/eHZZvF3svC73PeL32qhBOkpNLei6PMG1nNdGpo5Vv6SDPmvexAr7UIBvUZMVhmWIUGm33Jlhv4gFWCFJRMHbSNx81Vxeki1Ykopj8pa3lLQY43OlxU+PelWbjUCzt94JlRNCmWt3N41ZXaBA==">
+
+
+    <div id="firstNameId" class="form_section">
+             <div id="firstNameFieldLabel" class="LeftColFldName">
+                <label for="FN">Nombre (s)</label></div>
+                <div id="firstNameFieldValue" class="LeftColFldValue">
+                <div id="firstNameLeftSection" class="left_section">
+                <input type="text" name="firstName" maxlength="25" size="35" tabindex="1" value="" id="FN" class="form-control input-lg">
+                <div id="firstNameErrorIcon" class="display_error_icon">
+                      <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="firstNameTryAgain" class="TryAgainBox"></div></div>                            
+                </div>
+            <span class="NewErrorText">
+            
+            </span>
+        </div>
+        </div>
+        <div id="lastNameId" class="form_section">
+            <div id="lastNameFieldLabel" class="LeftColFldName">
+                <label for="LN">Apellido (s)</label></div>
+            <div id="lastNameFieldValue" class="LeftColFldValue">
+            <div id="lastNameLeftSection" class="left_section">
+            <input type="text" name="lastName" maxlength="25" size="35" tabindex="2" value="" id="LN" class="form-control input-lg">
+            <div id="lastNameErrorIcon" class="display_error_icon">
+                      <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="lastNameTryAgain" class="TryAgainBox"></div>            
+                </div>                            
+             </div>
+            <span class="NewErrorText">
+            
+            </span>
+        </div>
+        </div>
+        <div id="genderId" class="form_section">
+                 <div id="genderFieldName" class="LeftColFldName">
+                    <label for="F">Genero</label></div>
+                 <div id="genderFieldValue" class="LeftColFldValue">
+                    <div id="genderLeftSection" class="left_section">
+                        <div id="genderCheckboxFemale" class="GenderCheckBox">
+                         <input type="radio" name="gender" tabindex="3" value="F" onclick="radioAjaxtagsValidation(gender,new Array());" onblur="trkVisitedFlds(this.name+'.'+this.id);radioAjaxtagsValidation(gender,new Array());" id="Female" class="Gender">
+                         <label for="F" class="prevAddLabel"> Femenino </label></div>
+                        <div id="genderCheckboxMale" class="GenderCheckBox">
+                        <input type="radio" name="gender" tabindex="4" value="M" onclick="radioAjaxtagsValidation(gender,new Array());" onblur="trkVisitedFlds(this.name+'.'+this.id);radioAjaxtagsValidation(gender,new Array());" id="Male" class="Gender">
+                         <label for="M" class="prevAddLabel"> Masculino </label></div>
+            <div id="genderErrorIcon" class="display_error_icon">
+                 <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="genderTryAgain" class="TryAgainBox"></div></div>                             
+            </div>
+            <span class="NewErrorText">
+            
+                
+            </span>
+           </div>
+        </div>
+        <div id="streetId" class="form_section">                
+             <div id="streetFieldName" class="LeftColFldName">
+                <label for="SA">Domicilio actual</label>
+             </div>
+             <div id="streetFieldValue" class="LeftColFldValue">
+                <div id="streetLeftSection" class="left_section">
+                    <input type="text" name="street" maxlength="60" size="35" tabindex="5" value="" id="SA" class="form-control input-lg">
+                 <div id="streetErrorIcon" class="display_error_icon">
+                     <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="streetTryAgain" class="TryAgainBox"></div>           
+                 </div>                    
+                </div> 
+             <span class="NewErrorText">
+            
+               
+            </span>
+        </div>
+      </div>
+      <div id="cityId" class="form_section">               
+           <div id="cityFieldName" class="LeftColFldName">
+           <label for="CT">Ciudad</label></div>
+            <div id="cityFieldValue" class="LeftColFldValue">
+                <div id="cityLeftSection" class="left_section">  
+                    <input type="text" name="city" maxlength="25" size="35" tabindex="6" value="" id="CT" class="form-control input-lg">
+                    <div id="cityErrorIcon" class="display_error_icon">
+                     <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="cityTryAgain" class="TryAgainBox"></div>         
+                    </div>                            
+                </div>
+                <span class="NewErrorText">
+                
+                
+                </span>
+            </div>
+        </div>
+       
+        <div id="stateZipId" class="form_section1">                
+           <div id="stateFieldName" class="LeftColFldNameLeft">
+            <label for="ST">Estado</label></div> 
+             <div id="stateFieldValue" class="LeftColFldValueLeft">
+             
+                 <select name="state" tabindex="7" onchange="javascript:StateProductValidation(this.form);ajaxtagsValidation(state,new Array());" onblur="ajaxtagsValidation(state,new Array());" id="ST" class="form-control input-lg">
+                    <option value="" selected="selected">
+                        <option value="0">Fuera de México</option>
+                        <option value="1">Aguascalientes</option>
+                        <option value="2">Baja California</option>
+                        <option value="3">Baja California Sur</option>
+                        <option value="4">Campeche</option>
+                        <option value="5">Coahuila</option>
+                        <option value="6">Colima</option>
+                        <option value="7">Chiapas</option>
+                        <option value="8">Chihuahua</option>
+                        <option value="9">CDMX</option>
+                        <option value="10">Durango</option>
+                        <option value="11">Guanajuato</option>
+                        <option value="12">Guerrero</option>
+                        <option value="13">Hidalgo</option>
+                        <option value="14">Jalisco</option>
+                        <option value="15">México</option>
+                        <option value="16">Michoacán</option>
+                        <option value="17">Morelos</option>
+                        <option value="18">Nayarit</option>
+                        <option value="19">Nuevo León</option>
+                        <option value="20">Oaxaca</option>
+                        <option value="21">Puebla</option>
+                        <option value="22">Querétaro</option>
+                        <option value="23">Quintana Roo</option>
+                        <option value="24">San Luis Potosí</option>
+                        <option value="25">Sinaloa</option>
+                        <option value="26">Sonora</option>
+                        <option value="27">Tabasco</option>
+                        <option value="28">Tamaulipas</option>
+                        <option value="29">Tlaxcala</option>
+                        <option value="30">Veracruz</option>
+                        <option value="31">Yucatán</option>
+                        <option value="32">Zacatecas</option>
+</select>
+                 
+        </div>
+        
+         <div id="zipFieldName" class="LeftColFldNameRight">
+         <label for="ZP">Codigo Postal</label>
+         </div>
+         <div id="zipFieldValue" class="LeftColFldValueRight">
+            <input type="text" name="zip" maxlength="5" size="10" tabindex="8" value="" onkeyup="return autoTab(this, 5, event);" id="ZP" class="form-control input-lg">
+            <div id="stateZipErrorIcon" class="display_error_icon">
+                 <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="stateZipTryAgain" class="TryAgainBox"></div></div>
+                <span class="SmallErrorText">
+            
+                
+            </span>
+        </div>
+        </div>
+            
+        <div id="previousAddressId" class="form_section">               
+             <div id="prevAddressCheckBoxLabel" class="ZipCheckBoxName">
+              <label>¿Ha vivido en su domicilio por los ultimos 6 meses?</label> </div>
+              <div id="prevAddressCheckBoxFieldName" class="ZipCheckBox">
+                 <div id="prevAddressCheckBoxLeftSection" class="prev_left_section">
+                    <div id="prevAddressSelectedYes" class="PrevAddCheckBox">
+
+               <input type="radio" name="isFormerNotRequired" tabindex="9" value="Si" checked="checked" onclick="showHideFormerAddressDetail();" id="isFormerNotRequired" class="hideDiv"><label for="hideDiv" class="prevAddLabel">Si</label></div>
+               <div id="prevAddressSelectedNo" class="PrevAddCheckBox">
+               <input type="radio" name="isFormerNotRequired" tabindex="10" value="No" onclick="showHideFormerAddressDetail();" id="isFormerRequired" class="showDiv"><label for="showDiv" class="prevAddLabel"> No</label></div>
+              </div>
+          </div></div>
+        <div style="display:none; float: left;" id="AddStreet&amp;City">
+        <div id="formerStreetAddressId" class="form_section">               
+             <div id="formerStreetFieldName" class="LeftColFldName">
+            <label for="SA1">Domicilio anterior</label>
+            </div>
+            <div id="formerStreetValue" class="LeftColFldValue">
+             <div id="formerStreetLeftSection" class="left_section">
+             <input type="text" name="formerStreet" maxlength="60" size=" 35" tabindex="11" value="" id="SA1" class="form-control input-lg">
+             <div id="formerStreetErrorIcon" class="display_error_icon">
+                   <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="formerStreetTryAgain" class="TryAgainBox"></div>          
+                </div> 
+             </div>
+            <span class="NewErrorText">
+            
+                
+            </span>
+            </div>
+        </div>
+        
+        <div id="formerCityId" class="form_section">               
+           <div id="formerCityFieldName" class="LeftColFldName">
+        <label for="CT1">Ciudad</label>
+         </div>
+        <div id="formerCityFieldValue" class="LeftColFldValue">
+            <div id="formerCityLeftSection" class="left_section">
+            <input type="text" name="formerCity" maxlength="25" size="35" tabindex="12" value="" id="CT1" class="form-control input-lg">
+            <div id="formerCityErrorIcon" class="display_error_icon">
+                <img src="/equicom/prod/images/uib/images/icon_!_error_message.png" border="0" class="left" alt=""><div id="formerCityTryAgain" class="TryAgainBox"></div>     
+            </div>                                
+            </div>
+            <span class="NewErrorText">
+            
+          
+            </span>
+        </div>
+        </div>
+        <div id="formerStateZipId" class="form_section">               
+            <div id="formerStateId" class="LeftColFldNameLeft">
+            <label for="ST1">State</label></div> 
+            <div id="formerStateFieldName" class="LeftColFldValueLeft">
+             
+                 <select name="formerState" tabindex="13" onchange="javascript:StateProductValidation(this.form);ajaxtagsValidation(formerState,new Array(fState,formerStreet,formerCity,formerZip));" id="ST1" class="form-control input-lg"><option value=""></option>
+                        <option value="0">Fuera de México</option>
+                        <option value="1">Aguascalientes</option>
+                        <option value="2">Baja California</option>
+                        <option value="3">Baja California Sur</option>
+                        <option value="4">Campeche</option>
+                        <option value="5">Coahuila</option>
+                        <option value="6">Colima</option>
+                        <option value="7">Chiapas</option>
+                        <option value="8">Chihuahua</option>
+                        <option value="9">CDMX</option>
+                        <option value="10">Durango</option>
+                        <option value="11">Guanajuato</option>
+                        <option value="12">Guerrero</option>
+                        <option value="13">Hidalgo</option>
+                        <option value="14">Jalisco</option>
+                        <option value="15">México</option>
+                        <option value="16">Michoacán</option>
+                        <option value="17">Morelos</option>
+                        <option value="18">Nayarit</option>
+                        <option value="19">Nuevo León</option>
+                        <option value="20">Oaxaca</option>
+                        <option value="21">Puebla</option>
+                        <option value="22">Querétaro</option>
+                        <option value="23">Quintana Roo</option>
+                        <option value="24">San Luis Potosí</option>
+                        <option value="25">Sinaloa</option>
+                        <option value="26">Sonora</option>
+                        <option value="27">Tabasco</option>
+                        <option value="28">Tamaulipas</option>
+                        <option value="29">Tlaxcala</option>
+                        <option value="30">Veracruz</option>
+                        <option value="31">Yucatán</option>
+                        <option value="32">Zacatecas</option></select>
+            </div>
+            <div id="formerZipId" class="LeftColFldNameRight">
+            <label for="ZP1">Codigo Postal</label></div> 
+                <div class="row">
+                 <div class="col-sm-6 form-group">
+            <input type="text" name="formerZip" maxlength="10" size="10" tabindex="14" value="" onkeyup="return autoTab(this, 5, event);" id="ZP1" class="form-control input-lg">
+             </div> </div>
+
+            
+        
+        </div>
+        </div>
+        </br>
+        <div id="ssnId" class="form_section_reg2">
+           <div id="ssnFieldName" class="Reg2LeftColFldName">
+           <label for="sn1"><span>CURP</span></label>
+           </div>
+            <div id="ssnFieldValue" class="Reg2LeftColFldValue">
+               <div id="ssnLeftSection" class="left_section">
+                <div class="row">
+                 <div class="col-sm-6 form-group">
+               <input type="text" name="ssn1" maxlength="18" size="18" tabindex="18" value="" onkeyup="return autoTab(this, 18, event);" id="sn1" style="color:#000;text-decoration:none;" class="form-control input-lg"> <div id="ssn1DashLabel">  </div> 
+               
+               </div></div>
+               
+            </div>
+        </div>
+
+
+        <div id="dobId" class="form_section_reg2">
+           <div id="dobFieldName" class="Reg2LeftColFldName">
+            <label for="month">Fecha de nacimiento</label>
+           </div>
+
+                <div class="row">
+                <div class="col-sm-6 form-group">
+              
+              <select name="birthMonth" tabindex="18" onblur="ajaxtagsValidation(birthMonth,new Array(birthDay,birthYear));" id="month" class="form-control input-lg"><option value="MM">MM</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option></select> 
+                
+                
+                </div>
+                <div class="col-sm-6 form-group">
+                <select name="birthDay" tabindex="19" onblur="ajaxtagsValidation(birthDay,new Array(birthMonth,birthYear));" id="dayOfBirth" class="form-control input-lg"><option value="DD">DD</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option></select> 
+                
+                
+                </div>
+                <div class="col-sm-6 form-group">
+                <input type="text" name="birthYear" maxlength="4" size="4" tabindex="20" value="YYYY" onkeyup="return autoTab(this, 4, event);" onblur="ajaxtagsValidation(birthYear,new Array(birthMonth,birthDay));" id="birthYear" class="form-control input-lg" style="color: rgb(102, 102, 102);">
+                 </div>
+                
+            
+        </div>
+
+
+        <div id="phoneId" class="form_section_reg2">
+           <div id="phoneFieldName" class="Reg2LeftColFldName">
+
+            <label for="PHN">Telefono</label>
+            </div>
+                <div class="row">
+                        <div class="col-sm-6 form-group">
+                        <input type="text" name="phone2" maxlength="10" size="10" tabindex="22" value="" onkeyup="return autoTab(this, 10, event);" id="phone2Id" style="color:#000;text-decoration:none;" class="form-control input-lg">
+                        </div>
+                </div>
+            
+    </div>
+        
+   
+    <!-- Added for ITG 142343 -->
+    
+    
+   <!-- End of changes for ITG 142343 -->
+   
+    
+    
+    
+    <input type="hidden" name="emailContentType" id="emailContentType" value="TXT_HTML">    
+    
+    <!-- Added for ITG 73332 -->
+    <script>
+
+//Start of modification for 2009.7.1 former address implementation INAV# 73332
+
+function showHideFormerAddressDetail(){
+
+var isFormerNotRequired="";
+    var AddressDetailRow = document.getElementById("AddStreet&City");
+    // commented for Web Front Request#123879
+    //var AddressRow = document.getElementById("AddState&Zip");
+   
+    for (var i=0;i<document.registrationForm.isFormerNotRequired.length;i++) {
+ 
+    if (document.registrationForm.isFormerNotRequired[i].checked) {
+       
+         isFormerNotRequired = document.registrationForm.isFormerNotRequired[i].value;
+          document.getElementById("fState").value = isFormerNotRequired;
+    }
+}
+    if("Si" == isFormerNotRequired){
+    AddressDetailRow.style.display = 'none';
+    // commented for Web Front Request#123879
+    // AddressRow.style.display = 'none';
+         } 
+    else
+    {
+    AddressDetailRow.style.display = 'block';
+    // commented for Web Front Request#123879
+    // AddressRow.style.display = '';
+        }
+ }
+
+
+//End of modification for 2009.7.1 former address implementation INAV# 73332
+
+
+
+</script>
+<!-- Added for ITG 73332 -->
+
+
+<script>
+    // basic configuration
+    var io_bbout_element_id = 'ioBlackBox '; // populate ioBlackBox in form
+    var io_install_stm = false; // do not install Active X
+    var io_exclude_stm = 12; // do not run Active X
+    var io_install_flash = false; // do not install Flash
+    var io_enable_rip = true; // enable detection of Real IP
+    var sent = false;
+
+    //use callback to process blackbox as soon as it is done
+
+    //set up timer to give us a maximum wait time before giving up on waiting
+    //for all of the data to be collected. At that point, just send what is
+    //available
+    setTimeout(function() {
+        try {
+            var bb_info = ioGetBlackbox();
+            document.getElementById("ioBlackBox").value = bb_info.blackbox; //Explicitly set the value for hidden element
+
+            // send_bb( bb_info.blackbox );
+            return;
+        } catch (e) {
+        }
+        //send_bb( " " ); // if we are done but got an error,// send an empty blackbox
+
+    }, 5000); // set a maximum wait time of 5
+</script>
+
+
+<!-- Start of modification for 2009.7.1 former address implementation INAV# 73332 -->
+<script language="JavaScript" type="text/javascript">
+window.onload=showHideFormerAddressDetail;
+</script>
+<!-- End of modification for 2009.7.1 former address implementation INAV# 73332 -->
+
+    </fieldset>
+    <button class="btn btn-success btn-xlg" type="submit">Continuar</button>
+</br>
+</br>
+</form>
+</div></div></div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-ribbon" style="right: 0">
+                <h3 class="title" style="margin: 0;padding: 5px 10px">¡<span>Gracias</span>!</h3>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="logo" href="index.html">
+                        <img src="images/logoburo4.png" alt="Template Eden">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <p>&copy; Copyright 2018. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-5">
+                    <nav id="footer-menu">
+                        <ul>
+                            <li><a href="#">AVISO LEGAL</a></li>
+                            <li><a href="#">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
